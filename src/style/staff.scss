@@ -1,0 +1,27 @@
+.staff{
+  width: 100%;
+  padding: 47px 130px 0 43px;
+}
+.staff__items{
+  padding-left: 30px;
+}
+.staff__header{
+  display: flex;
+  justify-content: space-between;
+}
+.staff__title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.staff__company{
+  width: 123px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.staff__company-title{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}

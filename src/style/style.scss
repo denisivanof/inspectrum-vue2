@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+html{
+  overflow-x: hidden;
+}
+p {
+  margin: 0;
+}
+body{
+  font-family: "PF Din Display Pro";
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  color: #353535;
+}
+@font-face{
+  font-family: "PF Din Display Pro";
+  src: url("../assets/fonts/PFDinDisplayPro-Medium.woff2") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face{
+  font-family: "PF Din Display Pro";
+  src: url('../assets/fonts/PFDinDisplayPro-Regular.woff2') format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
