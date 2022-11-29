@@ -12,6 +12,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 @import "../style/navbar.scss";
 </style>

@@ -13,16 +13,19 @@ h1, h2, h3, h4 {
 }
 html{
   overflow-x: hidden;
+  height: 100%;
 }
 p {
   margin: 0;
 }
 body{
-  font-family: "PF Din Display Pro";
+  font-family: "PF Din Display Pro", sans-serif;
   min-width: 320px;
   position: relative;
   overflow-x: hidden;
   color: #353535;
+  height: 100%;
+  min-height: 100%;
 }
 @font-face{
   font-family: "PF Din Display Pro";
@@ -37,4 +40,13 @@ body{
   font-style: normal;
   font-weight: 400;
   font-display: swap;
+}
+.app{
+  display: flex;
+  min-height: 100%;
+}
+@media (max-width: 991px) {
+  .app{
+    display: block;
+  }
 }

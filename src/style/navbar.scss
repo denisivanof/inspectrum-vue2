@@ -1,10 +1,16 @@
 .navbar{
   width: 88px;
-  height: 100%;
   border: 1px solid #DBDADA;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   background: #FFFFFF;
+  @media (max-width: 991px) {
+    width: 100%;
+    max-height: 70px;
+  }
 }
 .navbar__logo{
   padding: 48px 19px 0 21px;
+  @media (max-width: 991px) {
+    padding: 10px 10px;
+  }
 }
